@@ -1,0 +1,19 @@
+{
+  "name": "desafio-cubos",
+  "version": "1.0.0",
+  "description": "Este é um documento com os materiais que serão disponibilizado para o desafio técnico.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrienogueiradacosta/Desafio-Cubos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrienogueiradacosta/Desafio-Cubos/issues"
+  },
+  "homepage": "https://github.com/gabrienogueiradacosta/Desafio-Cubos#readme"
+}
