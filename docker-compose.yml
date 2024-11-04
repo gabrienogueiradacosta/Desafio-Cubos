@@ -17,12 +17,14 @@ services:
 
   frontend:
     build:
-      context: /mnt/c/Users/gabri/OneDrive/Área de Trabalho/desafio-cubos/Desafio-Cubos/frontend/index.html
+      context: /mnt/c/Users/gabri/OneDrive/Área de Trabalho/desafio-cubos/Desafio-Cubos/frontend
       dockerfile: Dockerfile
     container_name: frontend
     networks:
       - externa
     restart: always
+    expose:
+      - "80"
 
   backend:
     build:
