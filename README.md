@@ -18,6 +18,12 @@ Siga as etapas para executar o projeto:
    git clone https://github.com/gabrienogueiradacosta/Desafio-Cubos.git
    cd Desafio-Cubos
 
+   No arquivo docker-compose atualize o caminho do volume (linha 10) e o context (linha 20) com o caminho correspondente da sua máquina
+   entre na pasta "frontend" e utilize o comando "pwd" e copie o caminho.
+    EX:
+    volumes:
+      - <seu_caminho>/nginx.conf:/etc/nginx/conf.d/default.conf 
+
 2. **Construção dos containers**:
     sudo docker-compose up --build
 
