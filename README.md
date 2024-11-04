@@ -28,11 +28,11 @@ Siga as etapas para executar o projeto:
     sudo docker-compose up --build
 
 3. **Acessando a aplicação**
-    Acesse a aplicação frontend pelo navegador em: http://localhost
+    Acesse a aplicação frontend pelo navegador em: http://localhost:8080
 
 4. **Verificando logs**
-    sudo docker-compose logs <container>
-    ## Substitua <container> por frontend, backend, db, ou proxy para verificar as ações do container desejado
+    sudo docker-compose logs container_name
+    ## Substitua container_name por frontend, backend, db, ou proxy para verificar as ações do container desejado
 
 5. **Encerrar aplicação** 
     Encerre a execução da aplicação com ctrl+C no terminal
